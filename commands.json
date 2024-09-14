@@ -1,0 +1,20 @@
+{
+    "Watchdog_On":{
+    "command0":"close Relay00",
+    "command1":"open Relay00",
+    "command2":"close Relay00",
+    "command3":"open Relay00"
+    },
+    "Watchdog_Off":{
+        "command0":"close Relay00",
+        "command1":"open Relay00",
+        "command2":"close Relay00",
+        "command3":"open Relay00"
+    },
+    "Can_Swap":{
+        "command0":"close Relay00",
+        "command1":"open Relay00",
+        "command2":"close Relay00",
+        "command3":"open Relay00"
+        }
+}

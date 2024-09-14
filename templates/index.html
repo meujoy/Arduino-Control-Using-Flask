@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arduino Control</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <h1>Arduino Control</h1>
+    <script>
+        function sendCommand(event) {
+            event.preventDefault();  // Prevent default form submission
+
+            // Get the selected command from the dropdown
+            const command = document.getElementById('Commands').value;
+            const consoleElement = document.getElementById('Console');
+            
+            const sendButton = document.querySelector('button[type="submit"]');
+
+            if (consoleElement) {
+                // Append "Sending..." to the textarea
+                consoleElement.value += '\nSending...';
+
+                sendButton.disabled = true;
+                sendButton.innerHTML = "Sending...";
+
+                // Send the command to the Flask server via AJAX (fetch)
+                fetch('/send', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ command: command })
+                    // returns a promise
+                })
+                .then(response => response.json())
+                .then(data => {
+                    // Append the final message to the textarea
+                    consoleElement.value += '\n' + data.message;
+
+                    sendButton.disabled = false;
+                    sendButton.innerHTML = "Send Command";
+                })
+                .catch(error => {
+                    // Handle errors and append error message
+                    consoleElement.value += '\nError: ' + error.message;
+                });
+            } else {
+                console.error('Console element not found!');
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="commands dropdown">
+        <label for="Commands">Choose your command:</label>
+        <form onsubmit="sendCommand(event)">
+            <select name="command" id="Commands">
+                {% for command in commands %}
+                    <option value="{{ command }}">{{ command }}</option>
+                {% endfor %}
+            </select>
+            <button type="submit">Send Command</button>
+        </form>
+    </div>
+
+    <div class="Console">
+        <label for="Console">Console</label>
+        <textarea readonly name="Console" id="Console" rows="20" cols="35">{{ message }}</textarea>
+    </div>
+</body>
+</html>
+

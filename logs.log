@@ -1,0 +1,696 @@
+2024-09-14 12:29:57,945 - INFO - _log - 97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://10.1.1.188:8000
+2024-09-14 12:29:57,946 - INFO - _log - 97 - [33mPress CTRL+C to quit[0m
+2024-09-14 12:29:57,953 - INFO - _log - 97 -  * Restarting with stat
+2024-09-14 12:29:59,135 - WARNING - _log - 97 -  * Debugger is active!
+2024-09-14 12:29:59,380 - INFO - _log - 97 -  * Debugger PIN: 959-091-865
+2024-09-14 12:30:10,740 - INFO - get_port - 52 - Port /dev/ttyACM0 found
+2024-09-14 12:30:10,743 - INFO - connectToPort - 67 - Connected Successfully to {ser.port}
+2024-09-14 12:30:10,771 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 12:30:10] "GET / HTTP/1.1" 200 -
+2024-09-14 12:30:10,843 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 12:30:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-09-14 12:30:11,941 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 12:30:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-09-14 12:30:25,816 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 12:30:27,823 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 12:30:29,831 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 12:30:31,838 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 12:30:31,839 - DEBUG - send - 89 - Key Watchdog_On sent successfully
+2024-09-14 12:30:31,841 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 12:30:31] "POST /send HTTP/1.1" 200 -
+2024-09-14 12:30:36,058 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 12:30:38,065 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 12:30:40,073 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 12:30:42,081 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 12:30:42,081 - DEBUG - send - 89 - Key Watchdog_Off sent successfully
+2024-09-14 12:30:42,084 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 12:30:42] "POST /send HTTP/1.1" 200 -
+2024-09-14 12:30:45,538 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 12:30:47,546 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 12:30:49,552 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 12:30:51,560 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 12:30:51,561 - DEBUG - send - 89 - Key Can_Swap sent successfully
+2024-09-14 12:30:51,563 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 12:30:51] "POST /send HTTP/1.1" 200 -
+2024-09-14 12:33:16,432 - INFO - _log - 97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://10.1.1.188:8000
+2024-09-14 12:33:16,433 - INFO - _log - 97 - [33mPress CTRL+C to quit[0m
+2024-09-14 12:33:16,437 - INFO - _log - 97 -  * Restarting with stat
+2024-09-14 12:33:17,619 - WARNING - _log - 97 -  * Debugger is active!
+2024-09-14 12:33:17,621 - INFO - _log - 97 -  * Debugger PIN: 959-091-865
+2024-09-14 12:33:38,755 - INFO - get_port - 52 - Port /dev/ttyACM0 found
+2024-09-14 12:33:38,759 - INFO - connectToPort - 67 - Connected Successfully to /dev/ttyACM0
+2024-09-14 12:33:38,792 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 12:33:38] "GET / HTTP/1.1" 200 -
+2024-09-14 12:33:38,856 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 12:33:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-09-14 12:33:53,887 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 12:33:55,895 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 12:33:57,903 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 12:33:59,908 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 12:33:59,909 - DEBUG - send - 89 - Key Watchdog_On sent successfully
+2024-09-14 12:33:59,911 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 12:33:59] "POST /send HTTP/1.1" 200 -
+2024-09-14 12:34:12,269 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 12:34:14,277 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 12:34:16,285 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 12:34:18,293 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 12:34:18,294 - DEBUG - send - 89 - Key Watchdog_Off sent successfully
+2024-09-14 12:34:18,297 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 12:34:18] "POST /send HTTP/1.1" 200 -
+2024-09-14 12:40:44,695 - INFO - get_port - 52 - Port /dev/ttyACM0 found
+2024-09-14 12:40:44,698 - INFO - connectToPort - 67 - Connected Successfully to /dev/ttyACM0
+2024-09-14 12:40:44,717 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 12:40:44] "GET / HTTP/1.1" 200 -
+2024-09-14 12:40:44,781 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 12:40:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-09-14 12:40:48,473 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 12:40:50,481 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 12:40:52,489 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 12:40:54,496 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 12:40:54,497 - DEBUG - send - 89 - Key Watchdog_On sent successfully
+2024-09-14 12:40:54,500 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 12:40:54] "POST /send HTTP/1.1" 200 -
+2024-09-14 12:40:59,410 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 12:41:01,418 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 12:41:03,425 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 12:41:05,433 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 12:41:05,434 - DEBUG - send - 89 - Key Watchdog_On sent successfully
+2024-09-14 12:41:05,437 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 12:41:05] "POST /send HTTP/1.1" 200 -
+2024-09-14 12:41:14,455 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 12:41:16,463 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 12:41:18,471 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 12:41:20,478 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 12:41:20,479 - DEBUG - send - 89 - Key Can_Swap sent successfully
+2024-09-14 12:41:20,483 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 12:41:20] "POST /send HTTP/1.1" 200 -
+2024-09-14 12:42:33,630 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 12:42:35,637 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 12:42:37,645 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 12:42:39,652 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 12:42:39,653 - DEBUG - send - 89 - Key Watchdog_On sent successfully
+2024-09-14 12:42:39,656 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 12:42:39] "POST /send HTTP/1.1" 200 -
+2024-09-14 12:42:48,252 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 12:42:50,260 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 12:42:52,268 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 12:42:54,275 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 12:42:54,275 - DEBUG - send - 89 - Key Watchdog_Off sent successfully
+2024-09-14 12:42:54,278 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 12:42:54] "POST /send HTTP/1.1" 200 -
+2024-09-14 12:49:31,421 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 12:49:33,429 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 12:49:35,437 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 12:49:37,445 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 12:49:37,446 - DEBUG - send - 89 - Key Watchdog_Off sent successfully
+2024-09-14 12:49:37,448 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 12:49:37] "POST /send HTTP/1.1" 200 -
+2024-09-14 12:49:40,960 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 12:49:42,966 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 12:49:44,974 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 12:49:46,982 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 12:49:46,983 - DEBUG - send - 89 - Key Can_Swap sent successfully
+2024-09-14 12:49:46,986 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 12:49:46] "POST /send HTTP/1.1" 200 -
+2024-09-14 12:49:50,560 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 12:49:52,565 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 12:49:54,573 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 12:49:56,581 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 12:49:56,582 - DEBUG - send - 89 - Key Watchdog_On sent successfully
+2024-09-14 12:49:56,584 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 12:49:56] "POST /send HTTP/1.1" 200 -
+2024-09-14 12:50:03,703 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 12:50:03] "[31m[1mPOST /send HTTP/1.1[0m" 401 -
+2024-09-14 12:50:09,522 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 12:50:09] "[31m[1mPOST /send HTTP/1.1[0m" 401 -
+2024-09-14 12:50:26,661 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 12:50:26] "[31m[1mPOST /send HTTP/1.1[0m" 401 -
+2024-09-14 12:50:30,628 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 12:50:30] "[31m[1mPOST /send HTTP/1.1[0m" 401 -
+2024-09-14 12:50:36,089 - INFO - get_port - 52 - Port /dev/ttyACM1 found
+2024-09-14 12:50:36,092 - INFO - connectToPort - 67 - Connected Successfully to /dev/ttyACM1
+2024-09-14 12:50:36,095 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 12:50:36] "GET / HTTP/1.1" 200 -
+2024-09-14 12:50:36,159 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 12:50:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-09-14 12:51:13,485 - INFO - get_port - 52 - Port /dev/ttyACM1 found
+2024-09-14 12:51:13,487 - INFO - connectToPort - 67 - Connected Successfully to /dev/ttyACM1
+2024-09-14 12:51:13,491 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 12:51:13] "GET / HTTP/1.1" 200 -
+2024-09-14 12:51:13,549 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 12:51:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-09-14 12:51:17,418 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 12:51:18,458 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 12:51:19,498 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 12:51:20,542 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 12:51:21,588 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 12:51:22,628 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 12:51:23,668 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 12:51:23,669 - DEBUG - send - 89 - Key Watchdog_On sent successfully
+2024-09-14 12:51:23,672 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 12:51:23] "POST /send HTTP/1.1" 200 -
+2024-09-14 12:51:39,596 - INFO - get_port - 52 - Port /dev/ttyACM1 found
+2024-09-14 12:51:39,598 - INFO - connectToPort - 67 - Connected Successfully to /dev/ttyACM1
+2024-09-14 12:51:39,602 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 12:51:39] "GET / HTTP/1.1" 200 -
+2024-09-14 12:51:39,655 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 12:51:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-09-14 12:51:43,528 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 12:51:43,529 - DEBUG - send - 89 - Key Watchdog_On sent successfully
+2024-09-14 12:51:43,531 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 12:51:43] "POST /send HTTP/1.1" 200 -
+2024-09-14 12:52:01,919 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 12:52:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-09-14 12:52:05,915 - INFO - get_port - 52 - Port /dev/ttyACM1 found
+2024-09-14 12:52:05,917 - INFO - connectToPort - 67 - Connected Successfully to /dev/ttyACM1
+2024-09-14 12:52:05,920 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 12:52:05] "GET / HTTP/1.1" 200 -
+2024-09-14 12:52:06,006 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 12:52:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-09-14 12:52:11,944 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 12:52:12,988 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 12:52:14,029 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 12:52:15,073 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 12:52:16,117 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 12:52:17,158 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 12:52:18,202 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 12:52:18,203 - DEBUG - send - 89 - Key Watchdog_On sent successfully
+2024-09-14 12:52:18,205 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 12:52:18] "POST /send HTTP/1.1" 200 -
+2024-09-14 12:52:53,574 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 12:52:53] "[31m[1mPOST /send HTTP/1.1[0m" 401 -
+2024-09-14 12:53:13,601 - INFO - get_port - 52 - Port /dev/ttyACM0 found
+2024-09-14 12:53:13,604 - INFO - connectToPort - 67 - Connected Successfully to /dev/ttyACM0
+2024-09-14 12:53:13,607 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 12:53:13] "GET / HTTP/1.1" 200 -
+2024-09-14 12:53:13,723 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 12:53:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-09-14 12:53:18,924 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 12:53:20,931 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 12:53:22,939 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 12:53:24,945 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 12:53:24,946 - DEBUG - send - 89 - Key Watchdog_Off sent successfully
+2024-09-14 12:53:24,949 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 12:53:24] "POST /send HTTP/1.1" 200 -
+2024-09-14 12:53:37,299 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 12:53:39,307 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 12:53:41,315 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 12:53:43,320 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 12:53:43,321 - DEBUG - send - 89 - Key Watchdog_On sent successfully
+2024-09-14 12:53:43,325 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 12:53:43] "POST /send HTTP/1.1" 200 -
+2024-09-14 12:53:56,812 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 12:53:56] "[31m[1mPOST /send HTTP/1.1[0m" 401 -
+2024-09-14 12:53:59,766 - INFO - get_port - 52 - Port /dev/ttyACM1 found
+2024-09-14 12:53:59,769 - INFO - connectToPort - 67 - Connected Successfully to /dev/ttyACM1
+2024-09-14 12:53:59,772 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 12:53:59] "GET / HTTP/1.1" 200 -
+2024-09-14 12:53:59,883 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 12:53:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-09-14 12:54:05,291 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 12:54:07,300 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 12:54:09,307 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 12:54:11,316 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 12:54:11,316 - DEBUG - send - 89 - Key Watchdog_On sent successfully
+2024-09-14 12:54:11,320 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 12:54:11] "POST /send HTTP/1.1" 200 -
+2024-09-14 12:54:17,198 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 12:54:19,204 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 12:54:21,211 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 12:54:23,218 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 12:54:23,219 - DEBUG - send - 89 - Key Can_Swap sent successfully
+2024-09-14 12:54:23,222 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 12:54:23] "POST /send HTTP/1.1" 200 -
+2024-09-14 12:55:27,885 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 12:55:29,893 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 12:55:31,898 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 12:55:33,905 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 12:55:33,906 - DEBUG - send - 89 - Key Watchdog_On sent successfully
+2024-09-14 12:55:33,909 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 12:55:33] "POST /send HTTP/1.1" 200 -
+2024-09-14 12:55:47,027 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 12:55:49,035 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 12:55:51,043 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 12:55:52,799 - INFO - get_port - 52 - Port /dev/ttyACM1 found
+2024-09-14 12:55:52,802 - INFO - connectToPort - 67 - Connected Successfully to /dev/ttyACM1
+2024-09-14 12:55:52,805 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 12:55:52] "GET / HTTP/1.1" 200 -
+2024-09-14 12:55:52,825 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 12:55:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-09-14 12:55:57,575 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 12:55:57,576 - DEBUG - send - 89 - Key Watchdog_On sent successfully
+2024-09-14 12:55:57,579 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 12:55:57] "POST /send HTTP/1.1" 200 -
+2024-09-14 12:56:09,076 - INFO - get_port - 52 - Port /dev/ttyACM1 found
+2024-09-14 12:56:09,078 - INFO - connectToPort - 67 - Connected Successfully to /dev/ttyACM1
+2024-09-14 12:56:09,081 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 12:56:09] "GET / HTTP/1.1" 200 -
+2024-09-14 12:56:09,115 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 12:56:09] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-09-14 12:56:09,198 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 12:56:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-09-14 12:56:15,936 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 12:56:16,976 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 12:56:18,017 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 12:56:19,060 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 12:56:20,105 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 12:56:21,146 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 12:56:22,186 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 12:56:22,187 - DEBUG - send - 89 - Key Watchdog_On sent successfully
+2024-09-14 12:56:22,189 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 12:56:22] "POST /send HTTP/1.1" 200 -
+2024-09-14 12:59:34,841 - INFO - get_port - 52 - Port /dev/ttyACM1 found
+2024-09-14 12:59:34,843 - INFO - connectToPort - 67 - Connected Successfully to /dev/ttyACM1
+2024-09-14 12:59:34,846 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 12:59:34] "GET / HTTP/1.1" 200 -
+2024-09-14 12:59:34,894 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 12:59:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-09-14 12:59:47,550 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 12:59:47,551 - DEBUG - send - 89 - Key Watchdog_On sent successfully
+2024-09-14 12:59:47,553 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 12:59:47] "POST /send HTTP/1.1" 200 -
+2024-09-14 13:00:05,151 - INFO - get_port - 52 - Port /dev/ttyACM1 found
+2024-09-14 13:00:05,152 - INFO - connectToPort - 67 - Connected Successfully to /dev/ttyACM1
+2024-09-14 13:00:05,156 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 13:00:05] "GET / HTTP/1.1" 200 -
+2024-09-14 13:00:05,231 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 13:00:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-09-14 13:00:09,100 - INFO - get_port - 52 - Port /dev/ttyACM1 found
+2024-09-14 13:00:09,101 - INFO - connectToPort - 67 - Connected Successfully to /dev/ttyACM1
+2024-09-14 13:00:09,104 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 13:00:09] "GET / HTTP/1.1" 200 -
+2024-09-14 13:00:09,138 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 13:00:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-09-14 13:00:13,451 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 13:00:14,495 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 13:00:15,535 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 13:00:16,579 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 13:00:17,623 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 13:00:18,665 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 13:00:19,708 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 13:00:19,709 - DEBUG - send - 89 - Key Watchdog_On sent successfully
+2024-09-14 13:00:19,712 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 13:00:19] "POST /send HTTP/1.1" 200 -
+2024-09-14 13:00:33,914 - INFO - _log - 97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://10.1.1.188:8000
+2024-09-14 13:00:33,915 - INFO - _log - 97 - [33mPress CTRL+C to quit[0m
+2024-09-14 13:00:33,919 - INFO - _log - 97 -  * Restarting with stat
+2024-09-14 13:00:35,095 - WARNING - _log - 97 -  * Debugger is active!
+2024-09-14 13:00:35,097 - INFO - _log - 97 -  * Debugger PIN: 959-091-865
+2024-09-14 13:00:39,895 - INFO - get_port - 52 - Port /dev/ttyACM1 found
+2024-09-14 13:00:39,898 - INFO - connectToPort - 67 - Connected Successfully to /dev/ttyACM1
+2024-09-14 13:00:39,928 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 13:00:39] "GET / HTTP/1.1" 200 -
+2024-09-14 13:00:40,004 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 13:00:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-09-14 13:00:47,842 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 13:00:49,848 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 13:00:51,855 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 13:00:53,864 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 13:00:53,865 - DEBUG - send - 89 - Key Watchdog_On sent successfully
+2024-09-14 13:00:53,867 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 13:00:53] "POST /send HTTP/1.1" 200 -
+2024-09-14 13:03:23,803 - INFO - _log - 97 -  * Detected change in '/home/youssef/flask/app.py', reloading
+2024-09-14 13:03:24,081 - INFO - _log - 97 -  * Restarting with stat
+2024-09-14 13:03:48,345 - INFO - <module> - 15 - ===============Starting Arduino Control VM v1.0.0===================
+2024-09-14 13:03:48,346 - DEBUG - <module> - 16 - listening on ip address : 10.1.1.188 and port 8000
+2024-09-14 13:03:48,497 - INFO - _log - 97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://10.1.1.188:8000
+2024-09-14 13:03:48,498 - INFO - _log - 97 - [33mPress CTRL+C to quit[0m
+2024-09-14 13:03:48,502 - INFO - _log - 97 -  * Restarting with stat
+2024-09-14 13:03:49,626 - INFO - <module> - 15 - ===============Starting Arduino Control VM v1.0.0===================
+2024-09-14 13:03:49,627 - DEBUG - <module> - 16 - listening on ip address : 10.1.1.188 and port 8000
+2024-09-14 13:03:49,680 - WARNING - _log - 97 -  * Debugger is active!
+2024-09-14 13:03:49,682 - INFO - _log - 97 -  * Debugger PIN: 959-091-865
+2024-09-14 13:04:06,636 - INFO - _log - 97 -  * Detected change in '/home/youssef/flask/views.py', reloading
+2024-09-14 13:04:06,900 - INFO - _log - 97 -  * Restarting with stat
+2024-09-14 13:04:08,035 - INFO - <module> - 15 - ===============Starting Arduino Control VM v1.0.0===================
+2024-09-14 13:04:08,035 - DEBUG - <module> - 16 - listening on ip address : 10.1.1.188 and port 8000
+2024-09-14 13:04:08,089 - WARNING - _log - 97 -  * Debugger is active!
+2024-09-14 13:04:08,091 - INFO - _log - 97 -  * Debugger PIN: 959-091-865
+2024-09-14 13:05:29,286 - INFO - _log - 97 -  * Detected change in '/home/youssef/flask/views.py', reloading
+2024-09-14 13:05:29,551 - INFO - _log - 97 -  * Restarting with stat
+2024-09-14 13:05:30,685 - INFO - <module> - 15 - ===============Starting Arduino Control VM v1.0.0===================
+2024-09-14 13:05:30,686 - DEBUG - <module> - 16 - listening on ip address : 10.1.1.188 and port 8000
+2024-09-14 13:05:30,739 - WARNING - _log - 97 -  * Debugger is active!
+2024-09-14 13:05:30,741 - INFO - _log - 97 -  * Debugger PIN: 959-091-865
+2024-09-14 13:05:38,331 - INFO - get_port - 52 - Port /dev/ttyACM1 found
+2024-09-14 13:05:38,334 - INFO - connectToPort - 67 - Connected Successfully to /dev/ttyACM1
+2024-09-14 13:05:38,362 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 13:05:38] "GET / HTTP/1.1" 200 -
+2024-09-14 13:05:38,454 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 13:05:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-09-14 13:05:50,837 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 13:05:52,345 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 13:05:53,853 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 13:05:55,359 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 13:05:55,360 - DEBUG - send - 89 - Key Watchdog_On sent successfully
+2024-09-14 13:05:55,363 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 13:05:55] "POST /send HTTP/1.1" 200 -
+2024-09-14 13:06:01,526 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 13:06:03,034 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 13:06:04,540 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 13:06:06,047 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 13:06:06,048 - DEBUG - send - 89 - Key Can_Swap sent successfully
+2024-09-14 13:06:06,051 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 13:06:06] "POST /send HTTP/1.1" 200 -
+2024-09-14 13:06:22,001 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 13:06:23,505 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 13:06:25,013 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 13:06:26,520 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 13:06:26,521 - DEBUG - send - 89 - Key Watchdog_Off sent successfully
+2024-09-14 13:06:26,524 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 13:06:26] "POST /send HTTP/1.1" 200 -
+2024-09-14 13:06:42,270 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 13:06:43,776 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 13:06:45,284 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 13:06:46,791 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 13:06:46,792 - DEBUG - send - 89 - Key Watchdog_On sent successfully
+2024-09-14 13:06:46,794 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 13:06:46] "POST /send HTTP/1.1" 200 -
+2024-09-14 13:07:15,059 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 13:07:16,567 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 13:07:18,074 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 13:07:19,582 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 13:07:19,583 - DEBUG - send - 89 - Key Can_Swap sent successfully
+2024-09-14 13:07:19,586 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 13:07:19] "POST /send HTTP/1.1" 200 -
+2024-09-14 13:07:34,029 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 13:07:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-09-14 13:07:42,204 - INFO - get_port - 52 - Port /dev/ttyACM1 found
+2024-09-14 13:07:42,207 - INFO - connectToPort - 67 - Connected Successfully to /dev/ttyACM1
+2024-09-14 13:07:42,211 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 13:07:42] "GET / HTTP/1.1" 200 -
+2024-09-14 13:07:42,270 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 13:07:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-09-14 13:07:49,941 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 13:07:51,449 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 13:07:52,956 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 13:07:54,464 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 13:07:54,465 - DEBUG - send - 89 - Key Watchdog_On sent successfully
+2024-09-14 13:07:54,467 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 13:07:54] "POST /send HTTP/1.1" 200 -
+2024-09-14 13:08:17,336 - INFO - _log - 97 -  * Detected change in '/home/youssef/flask/views.py', reloading
+2024-09-14 13:08:17,613 - INFO - _log - 97 -  * Restarting with stat
+2024-09-14 13:08:18,747 - INFO - <module> - 15 - ===============Starting Arduino Control VM v1.0.0===================
+2024-09-14 13:08:18,747 - DEBUG - <module> - 16 - listening on ip address : 10.1.1.188 and port 8000
+2024-09-14 13:08:18,800 - WARNING - _log - 97 -  * Debugger is active!
+2024-09-14 13:08:18,802 - INFO - _log - 97 -  * Debugger PIN: 959-091-865
+2024-09-14 13:08:22,943 - INFO - get_port - 52 - Port /dev/ttyACM1 found
+2024-09-14 13:08:22,947 - INFO - connectToPort - 67 - Connected Successfully to /dev/ttyACM1
+2024-09-14 13:08:22,977 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 13:08:22] "GET / HTTP/1.1" 200 -
+2024-09-14 13:08:23,068 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 13:08:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-09-14 13:08:27,919 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 13:08:28,959 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 13:08:30,004 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 13:08:31,044 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 13:08:31,045 - DEBUG - send - 89 - Key Watchdog_On sent successfully
+2024-09-14 13:08:31,047 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 13:08:31] "POST /send HTTP/1.1" 200 -
+2024-09-14 13:08:52,622 - INFO - _log - 97 -  * Detected change in '/home/youssef/flask/views.py', reloading
+2024-09-14 13:08:52,901 - INFO - _log - 97 -  * Restarting with stat
+2024-09-14 13:08:54,033 - INFO - <module> - 15 - ===============Starting Arduino Control VM v1.0.0===================
+2024-09-14 13:08:54,034 - DEBUG - <module> - 16 - listening on ip address : 10.1.1.188 and port 8000
+2024-09-14 13:08:54,087 - WARNING - _log - 97 -  * Debugger is active!
+2024-09-14 13:08:54,089 - INFO - _log - 97 -  * Debugger PIN: 959-091-865
+2024-09-14 13:08:58,038 - INFO - get_port - 52 - Port /dev/ttyACM1 found
+2024-09-14 13:08:58,041 - INFO - connectToPort - 67 - Connected Successfully to /dev/ttyACM1
+2024-09-14 13:08:58,070 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 13:08:58] "GET / HTTP/1.1" 200 -
+2024-09-14 13:08:58,189 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 13:08:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-09-14 13:09:02,388 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 13:09:03,429 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 13:09:04,473 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 13:09:05,513 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 13:09:05,514 - DEBUG - send - 89 - Key Watchdog_On sent successfully
+2024-09-14 13:09:05,516 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 13:09:05] "POST /send HTTP/1.1" 200 -
+2024-09-14 13:09:08,864 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 13:09:09,905 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 13:09:10,948 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 13:09:11,989 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 13:09:11,990 - DEBUG - send - 89 - Key Watchdog_Off sent successfully
+2024-09-14 13:09:11,992 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 13:09:11] "POST /send HTTP/1.1" 200 -
+2024-09-14 13:09:24,534 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 13:09:25,574 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 13:09:26,619 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 13:09:27,659 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 13:09:27,660 - DEBUG - send - 89 - Key Can_Swap sent successfully
+2024-09-14 13:09:27,662 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 13:09:27] "POST /send HTTP/1.1" 200 -
+2024-09-14 13:09:56,910 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 13:09:57,951 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 13:09:58,996 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 13:10:00,036 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 13:10:00,037 - DEBUG - send - 89 - Key Watchdog_On sent successfully
+2024-09-14 13:10:00,039 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 13:10:00] "POST /send HTTP/1.1" 200 -
+2024-09-14 13:10:18,043 - INFO - get_port - 52 - Port /dev/ttyACM0 found
+2024-09-14 13:10:18,047 - INFO - connectToPort - 67 - Connected Successfully to /dev/ttyACM0
+2024-09-14 13:10:18,050 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 13:10:18] "GET / HTTP/1.1" 200 -
+2024-09-14 13:10:18,141 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 13:10:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-09-14 13:10:20,684 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 13:10:21,725 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 13:10:22,769 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 13:10:23,809 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 13:10:23,810 - DEBUG - send - 89 - Key Watchdog_On sent successfully
+2024-09-14 13:10:23,813 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 13:10:23] "POST /send HTTP/1.1" 200 -
+2024-09-14 13:10:39,321 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 13:10:39] "[31m[1mPOST /send HTTP/1.1[0m" 401 -
+2024-09-14 13:10:42,695 - INFO - get_port - 52 - Port /dev/ttyACM1 found
+2024-09-14 13:10:42,699 - INFO - connectToPort - 67 - Connected Successfully to /dev/ttyACM1
+2024-09-14 13:10:42,702 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 13:10:42] "GET / HTTP/1.1" 200 -
+2024-09-14 13:10:42,745 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 13:10:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-09-14 13:10:45,777 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 13:10:46,817 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 13:10:47,861 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 13:10:48,902 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 13:10:48,903 - DEBUG - send - 89 - Key Watchdog_On sent successfully
+2024-09-14 13:10:48,905 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 13:10:48] "POST /send HTTP/1.1" 200 -
+2024-09-14 13:25:11,828 - INFO - _log - 97 -  * Detected change in '/home/youssef/flask/app.py', reloading
+2024-09-14 13:25:12,108 - INFO - _log - 97 -  * Restarting with stat
+2024-09-14 13:26:15,390 - INFO - <module> - 22 - ===============Starting Arduino Control VM v1.0.0===================
+2024-09-14 13:26:58,520 - INFO - <module> - 22 - ===============Starting Arduino Control VM v1.0.0===================
+2024-09-14 13:26:58,521 - DEBUG - <module> - 23 - listening on ip address : '10.1.1.188' and port 8000
+2024-09-14 13:29:00,975 - INFO - <module> - 22 - ===============Starting Arduino Control VM v1.0.0===================
+2024-09-14 13:29:00,975 - DEBUG - <module> - 23 - listening on ip address : '10.1.1.188' and port 8000
+2024-09-14 13:29:48,925 - INFO - <module> - 22 - ===============Starting Arduino Control VM v1.0.0===================
+2024-09-14 13:29:48,926 - DEBUG - <module> - 23 - listening on ip address : "10.1.1.188" and port 8000
+2024-09-14 13:30:21,550 - INFO - <module> - 22 - ===============Starting Arduino Control VM v1.0.0===================
+2024-09-14 13:30:21,551 - DEBUG - <module> - 23 - listening on ip address : 10.1.1.188 and port 8000
+2024-09-14 13:30:21,663 - INFO - _log - 97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://10.1.1.188:8000
+2024-09-14 13:30:21,664 - INFO - _log - 97 - [33mPress CTRL+C to quit[0m
+2024-09-14 13:30:21,668 - INFO - _log - 97 -  * Restarting with stat
+2024-09-14 13:30:22,799 - INFO - <module> - 22 - ===============Starting Arduino Control VM v1.0.0===================
+2024-09-14 13:30:22,799 - DEBUG - <module> - 23 - listening on ip address : 10.1.1.188 and port 8000
+2024-09-14 13:30:22,853 - WARNING - _log - 97 -  * Debugger is active!
+2024-09-14 13:30:22,854 - INFO - _log - 97 -  * Debugger PIN: 959-091-865
+2024-09-14 13:30:47,202 - INFO - _log - 97 -  * Detected change in '/home/youssef/flask/app.py', reloading
+2024-09-14 13:30:47,470 - INFO - _log - 97 -  * Restarting with stat
+2024-09-14 13:30:48,607 - INFO - <module> - 20 - ===============Starting Arduino Control VM v1.0.0===================
+2024-09-14 13:30:48,608 - DEBUG - <module> - 21 - listening on ip address : 10.1.1.188 and port 8000
+2024-09-14 13:30:48,660 - WARNING - _log - 97 -  * Debugger is active!
+2024-09-14 13:30:48,662 - INFO - _log - 97 -  * Debugger PIN: 959-091-865
+2024-09-14 13:30:59,173 - INFO - <module> - 20 - ===============Starting Arduino Control VM v1.0.0===================
+2024-09-14 13:30:59,174 - DEBUG - <module> - 21 - listening on ip address : 10.1.1.188 and port 8000
+2024-09-14 13:30:59,287 - INFO - _log - 97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://10.1.1.188:8000
+2024-09-14 13:30:59,288 - INFO - _log - 97 - [33mPress CTRL+C to quit[0m
+2024-09-14 13:30:59,292 - INFO - _log - 97 -  * Restarting with stat
+2024-09-14 13:31:00,421 - INFO - <module> - 20 - ===============Starting Arduino Control VM v1.0.0===================
+2024-09-14 13:31:00,421 - DEBUG - <module> - 21 - listening on ip address : 10.1.1.188 and port 8000
+2024-09-14 13:31:00,474 - WARNING - _log - 97 -  * Debugger is active!
+2024-09-14 13:31:00,476 - INFO - _log - 97 -  * Debugger PIN: 959-091-865
+2024-09-14 13:31:22,521 - INFO - get_port - 52 - Port /dev/ttyACM1 found
+2024-09-14 13:31:22,524 - INFO - connectToPort - 67 - Connected Successfully to /dev/ttyACM1
+2024-09-14 13:31:22,553 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 13:31:22] "GET / HTTP/1.1" 200 -
+2024-09-14 13:31:22,645 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 13:31:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-09-14 13:31:26,663 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 13:31:27,704 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 13:31:28,748 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 13:31:29,789 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 13:31:29,789 - DEBUG - send - 89 - Key Watchdog_On sent successfully
+2024-09-14 13:31:29,792 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 13:31:29] "POST /send HTTP/1.1" 200 -
+2024-09-14 13:31:33,348 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 13:31:34,388 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 13:31:35,433 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 13:31:36,473 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 13:31:36,474 - DEBUG - send - 89 - Key Can_Swap sent successfully
+2024-09-14 13:31:36,477 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 13:31:36] "POST /send HTTP/1.1" 200 -
+2024-09-14 13:31:39,582 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 13:31:40,621 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 13:31:41,666 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 13:31:42,707 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 13:31:42,707 - DEBUG - send - 89 - Key Watchdog_Off sent successfully
+2024-09-14 13:31:42,709 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 13:31:42] "POST /send HTTP/1.1" 200 -
+2024-09-14 13:33:52,375 - INFO - _log - 97 -  * Detected change in '/home/youssef/flask/app.py', reloading
+2024-09-14 13:33:52,657 - INFO - _log - 97 -  * Restarting with stat
+2024-09-14 13:33:53,791 - INFO - <module> - 20 - ===============Starting Arduino Control VM v1.0.0===================
+2024-09-14 13:33:53,792 - DEBUG - <module> - 21 - listening on ip address : 10.1.1.188 and port 8000
+2024-09-14 13:33:53,845 - WARNING - _log - 97 -  * Debugger is active!
+2024-09-14 13:33:53,846 - INFO - _log - 97 -  * Debugger PIN: 959-091-865
+2024-09-14 13:34:22,848 - INFO - <module> - 20 - ===============Starting Arduino Control VM v1.0.0===================
+2024-09-14 13:34:22,849 - DEBUG - <module> - 21 - listening on ip address : 10.1.0.188 and port 8000
+2024-09-14 13:34:52,046 - INFO - <module> - 20 - ===============Starting Arduino Control VM v1.0.0===================
+2024-09-14 13:34:52,047 - DEBUG - <module> - 21 - listening on ip address : 10.1.0.188 and port 8000
+2024-09-14 13:40:05,319 - INFO - <module> - 20 - ===============Starting Arduino Control VM v1.0.0===================
+2024-09-14 13:40:05,319 - DEBUG - <module> - 21 - listening on ip address : 10.1.0.188 and port 8000
+2024-09-14 13:42:08,697 - INFO - <module> - 20 - ===============Starting Arduino Control VM v1.0.0===================
+2024-09-14 13:42:08,698 - DEBUG - <module> - 21 - listening on ip address : 10.1.0.188 and port 8000
+2024-09-14 13:43:31,837 - INFO - <module> - 21 - ===============Starting Arduino Control VM v1.0.0===================
+2024-09-14 13:43:31,837 - DEBUG - <module> - 22 - listening on ip address : 10.1.0.188 and port 8000
+2024-09-14 13:45:17,609 - INFO - <module> - 21 - ===============Starting Arduino Control VM v1.0.0===================
+2024-09-14 13:45:17,610 - DEBUG - <module> - 22 - listening on ip address : 10.1.0.188 and port 8000
+2024-09-14 13:45:57,052 - INFO - <module> - 21 - ===============Starting Arduino Control VM v1.0.0===================
+2024-09-14 13:45:57,053 - DEBUG - <module> - 22 - listening on ip address : 10.1.1.188 and port 8000
+2024-09-14 13:45:57,171 - INFO - _log - 97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://10.1.1.188:8000
+2024-09-14 13:45:57,171 - INFO - _log - 97 - [33mPress CTRL+C to quit[0m
+2024-09-14 13:45:57,175 - INFO - _log - 97 -  * Restarting with stat
+2024-09-14 13:45:58,304 - INFO - <module> - 21 - ===============Starting Arduino Control VM v1.0.0===================
+2024-09-14 13:45:58,305 - DEBUG - <module> - 22 - listening on ip address : 10.1.1.188 and port 8000
+2024-09-14 13:45:58,358 - WARNING - _log - 97 -  * Debugger is active!
+2024-09-14 13:45:58,359 - INFO - _log - 97 -  * Debugger PIN: 959-091-865
+2024-09-14 13:46:30,433 - INFO - get_port - 52 - Port /dev/ttyACM1 found
+2024-09-14 13:46:30,436 - INFO - connectToPort - 67 - Connected Successfully to /dev/ttyACM1
+2024-09-14 13:46:30,466 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 13:46:30] "GET / HTTP/1.1" 200 -
+2024-09-14 13:46:30,616 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 13:46:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-09-14 13:46:34,762 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 13:46:35,803 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 13:46:36,847 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 13:46:37,887 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 13:46:37,888 - DEBUG - send - 89 - Key Watchdog_On sent successfully
+2024-09-14 13:46:37,890 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 13:46:37] "POST /send HTTP/1.1" 200 -
+2024-09-14 13:46:46,668 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 13:46:47,709 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 13:46:48,753 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 13:46:49,794 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 13:46:49,795 - DEBUG - send - 89 - Key Watchdog_Off sent successfully
+2024-09-14 13:46:49,797 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 13:46:49] "POST /send HTTP/1.1" 200 -
+2024-09-14 13:46:55,445 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 13:46:56,486 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 13:46:57,530 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 13:46:58,570 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 13:46:58,571 - DEBUG - send - 89 - Key Watchdog_On sent successfully
+2024-09-14 13:46:58,574 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 13:46:58] "POST /send HTTP/1.1" 200 -
+2024-09-14 13:47:02,953 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 13:47:03,997 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 13:47:05,038 - DEBUG - send - 88 - Arduino respone: (Command: close Relay00)
+2024-09-14 13:47:06,079 - DEBUG - send - 88 - Arduino respone: (Command: open Relay00)
+2024-09-14 13:47:06,079 - DEBUG - send - 89 - Key Can_Swap sent successfully
+2024-09-14 13:47:06,082 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 13:47:06] "POST /send HTTP/1.1" 200 -
+2024-09-14 13:49:00,050 - INFO - <module> - 21 - ===============Starting Arduino Control VM v1.0.0===================
+2024-09-14 13:49:00,050 - DEBUG - <module> - 22 - listening on ip address : 10.1.1.188 and port 8000
+2024-09-14 13:49:00,187 - INFO - _log - 97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://10.1.1.188:8000
+2024-09-14 13:49:00,188 - INFO - _log - 97 - [33mPress CTRL+C to quit[0m
+2024-09-14 13:49:00,192 - INFO - _log - 97 -  * Restarting with stat
+2024-09-14 13:49:01,321 - INFO - <module> - 21 - ===============Starting Arduino Control VM v1.0.0===================
+2024-09-14 13:49:01,321 - DEBUG - <module> - 22 - listening on ip address : 10.1.1.188 and port 8000
+2024-09-14 13:49:01,374 - WARNING - _log - 97 -  * Debugger is active!
+2024-09-14 13:49:01,376 - INFO - _log - 97 -  * Debugger PIN: 959-091-865
+2024-09-14 13:49:11,051 - INFO - get_port - 51 - Port /dev/ttyACM1 found
+2024-09-14 13:49:11,054 - INFO - connectToPort - 66 - Connected Successfully to /dev/ttyACM1
+2024-09-14 13:49:11,081 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 13:49:11] "GET / HTTP/1.1" 200 -
+2024-09-14 13:49:11,196 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 13:49:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-09-14 13:49:16,650 - DEBUG - send - 87 - Arduino respone: (Command: close Relay00)
+2024-09-14 13:49:17,691 - DEBUG - send - 87 - Arduino respone: (Command: open Relay00)
+2024-09-14 13:49:18,734 - DEBUG - send - 87 - Arduino respone: (Command: close Relay00)
+2024-09-14 13:49:19,775 - DEBUG - send - 87 - Arduino respone: (Command: open Relay00)
+2024-09-14 13:49:19,775 - DEBUG - send - 88 - Key Watchdog_Off sent successfully
+2024-09-14 13:49:19,777 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 13:49:19] "POST /send HTTP/1.1" 200 -
+2024-09-14 13:49:25,039 - INFO - get_port - 51 - Port /dev/ttyACM1 found
+2024-09-14 13:49:25,042 - INFO - connectToPort - 66 - Connected Successfully to /dev/ttyACM1
+2024-09-14 13:49:25,045 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 13:49:25] "GET / HTTP/1.1" 200 -
+2024-09-14 13:49:25,081 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 13:49:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-09-14 13:49:35,276 - INFO - get_port - 51 - Port /dev/ttyACM1 found
+2024-09-14 13:49:35,279 - INFO - connectToPort - 66 - Connected Successfully to /dev/ttyACM1
+2024-09-14 13:49:35,282 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 13:49:35] "GET / HTTP/1.1" 200 -
+2024-09-14 13:49:35,330 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 13:49:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-09-14 13:50:56,342 - INFO - _log - 97 -  * Detected change in '/home/youssef/flask/views.py', reloading
+2024-09-14 13:50:56,623 - INFO - _log - 97 -  * Restarting with stat
+2024-09-14 13:50:57,770 - INFO - <module> - 21 - ===============Starting Arduino Control VM v1.0.0===================
+2024-09-14 13:50:57,771 - DEBUG - <module> - 22 - listening on ip address : 10.1.1.188 and port 8000
+2024-09-14 13:50:57,824 - WARNING - _log - 97 -  * Debugger is active!
+2024-09-14 13:50:57,826 - INFO - _log - 97 -  * Debugger PIN: 959-091-865
+2024-09-14 13:54:19,117 - INFO - _log - 97 -  * Detected change in '/home/youssef/flask/views.py', reloading
+2024-09-14 13:54:19,384 - INFO - _log - 97 -  * Restarting with stat
+2024-09-14 13:58:52,431 - INFO - <module> - 21 - ===============Starting Arduino Control VM v1.0.0===================
+2024-09-14 13:58:52,431 - DEBUG - <module> - 22 - listening on ip address : 10.1.1.188 and port 8000
+2024-09-14 13:58:52,551 - INFO - _log - 97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://10.1.1.188:8000
+2024-09-14 13:58:52,551 - INFO - _log - 97 - [33mPress CTRL+C to quit[0m
+2024-09-14 13:58:52,555 - INFO - _log - 97 -  * Restarting with stat
+2024-09-14 13:58:53,688 - INFO - <module> - 21 - ===============Starting Arduino Control VM v1.0.0===================
+2024-09-14 13:58:53,689 - DEBUG - <module> - 22 - listening on ip address : 10.1.1.188 and port 8000
+2024-09-14 13:58:53,742 - WARNING - _log - 97 -  * Debugger is active!
+2024-09-14 13:58:53,744 - INFO - _log - 97 -  * Debugger PIN: 959-091-865
+2024-09-14 13:58:55,757 - INFO - get_port - 49 - Port /dev/ttyACM1 found
+2024-09-14 13:58:55,761 - INFO - connectToPort - 64 - Connected Successfully to /dev/ttyACM1
+2024-09-14 13:58:55,787 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 13:58:55] "GET / HTTP/1.1" 200 -
+2024-09-14 13:58:55,903 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 13:58:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-09-14 13:59:00,194 - DEBUG - send - 85 - Arduino respone: (Command: close Relay00)
+2024-09-14 13:59:01,234 - DEBUG - send - 85 - Arduino respone: (Command: open Relay00)
+2024-09-14 13:59:02,278 - DEBUG - send - 85 - Arduino respone: (Command: close Relay00)
+2024-09-14 13:59:03,319 - DEBUG - send - 85 - Arduino respone: (Command: open Relay00)
+2024-09-14 13:59:03,320 - DEBUG - send - 86 - Key Watchdog_Off sent successfully
+2024-09-14 13:59:03,322 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 13:59:03] "POST /send HTTP/1.1" 200 -
+2024-09-14 13:59:26,247 - INFO - get_port - 49 - Port /dev/ttyACM1 found
+2024-09-14 13:59:26,250 - INFO - connectToPort - 64 - Connected Successfully to /dev/ttyACM1
+2024-09-14 13:59:26,253 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 13:59:26] "GET / HTTP/1.1" 200 -
+2024-09-14 13:59:26,305 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 13:59:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-09-14 13:59:40,663 - INFO - get_port - 49 - Port /dev/ttyACM1 found
+2024-09-14 13:59:40,665 - INFO - connectToPort - 64 - Connected Successfully to /dev/ttyACM1
+2024-09-14 13:59:40,668 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 13:59:40] "GET / HTTP/1.1" 200 -
+2024-09-14 13:59:40,714 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 13:59:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-09-14 13:59:46,457 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 13:59:46] "[31m[1mPOST /send HTTP/1.1[0m" 401 -
+2024-09-14 13:59:46,479 - DEBUG - send - 85 - Arduino respone: (ommand: close Relay00)
+2024-09-14 13:59:47,524 - DEBUG - send - 85 - Arduino respone: (Command: open Relay00)
+2024-09-14 13:59:48,568 - DEBUG - send - 85 - Arduino respone: (Command: close Relay00)
+2024-09-14 13:59:49,608 - DEBUG - send - 85 - Arduino respone: (Command: open Relay00)
+2024-09-14 13:59:49,609 - DEBUG - send - 86 - Key Watchdog_On sent successfully
+2024-09-14 13:59:49,612 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 13:59:49] "POST /send HTTP/1.1" 200 -
+2024-09-14 14:00:05,278 - DEBUG - send - 85 - Arduino respone: (Command: close Relay00)
+2024-09-14 14:00:06,319 - DEBUG - send - 85 - Arduino respone: (Command: open Relay00)
+2024-09-14 14:00:07,363 - DEBUG - send - 85 - Arduino respone: (Command: close Relay00)
+2024-09-14 14:00:08,404 - DEBUG - send - 85 - Arduino respone: (Command: open Relay00)
+2024-09-14 14:00:08,405 - DEBUG - send - 86 - Key Watchdog_Off sent successfully
+2024-09-14 14:00:08,408 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 14:00:08] "POST /send HTTP/1.1" 200 -
+2024-09-14 14:00:13,847 - DEBUG - send - 85 - Arduino respone: (Command: close Relay00)
+2024-09-14 14:00:14,891 - DEBUG - send - 85 - Arduino respone: (Command: open Relay00)
+2024-09-14 14:00:15,935 - DEBUG - send - 85 - Arduino respone: (Command: close Relay00)
+2024-09-14 14:00:16,976 - DEBUG - send - 85 - Arduino respone: (Command: open Relay00)
+2024-09-14 14:00:16,977 - DEBUG - send - 86 - Key Watchdog_On sent successfully
+2024-09-14 14:00:16,979 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 14:00:16] "POST /send HTTP/1.1" 200 -
+2024-09-14 14:00:20,143 - INFO - get_port - 49 - Port /dev/ttyACM1 found
+2024-09-14 14:00:20,146 - INFO - connectToPort - 64 - Connected Successfully to /dev/ttyACM1
+2024-09-14 14:00:20,149 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 14:00:20] "GET / HTTP/1.1" 200 -
+2024-09-14 14:00:20,212 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 14:00:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-09-14 14:00:26,585 - DEBUG - send - 85 - Arduino respone: (Command: close Relay00)
+2024-09-14 14:00:27,629 - DEBUG - send - 85 - Arduino respone: (Command: open Relay00)
+2024-09-14 14:00:28,673 - DEBUG - send - 85 - Arduino respone: (Command: close Relay00)
+2024-09-14 14:00:29,714 - DEBUG - send - 85 - Arduino respone: (Command: open Relay00)
+2024-09-14 14:00:29,715 - DEBUG - send - 86 - Key Watchdog_On sent successfully
+2024-09-14 14:00:29,717 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 14:00:29] "POST /send HTTP/1.1" 200 -
+2024-09-14 14:01:18,291 - INFO - _log - 97 -  * Detected change in '/home/youssef/flask/views.py', reloading
+2024-09-14 14:01:18,574 - INFO - _log - 97 -  * Restarting with stat
+2024-09-14 14:01:19,710 - INFO - <module> - 21 - ===============Starting Arduino Control VM v1.0.0===================
+2024-09-14 14:01:19,711 - DEBUG - <module> - 22 - listening on ip address : 10.1.1.188 and port 8000
+2024-09-14 14:01:19,764 - WARNING - _log - 97 -  * Debugger is active!
+2024-09-14 14:01:19,766 - INFO - _log - 97 -  * Debugger PIN: 959-091-865
+2024-09-14 14:01:26,788 - INFO - get_port - 49 - Port /dev/ttyACM1 found
+2024-09-14 14:01:26,791 - INFO - connectToPort - 64 - Connected Successfully to /dev/ttyACM1
+2024-09-14 14:01:31,827 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 14:01:31] "GET / HTTP/1.1" 200 -
+2024-09-14 14:01:31,923 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 14:01:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-09-14 14:01:34,749 - DEBUG - send - 86 - Arduino respone: (Command: close Relay00)
+2024-09-14 14:01:35,790 - DEBUG - send - 86 - Arduino respone: (Command: open Relay00)
+2024-09-14 14:01:36,834 - DEBUG - send - 86 - Arduino respone: (Command: close Relay00)
+2024-09-14 14:01:37,874 - DEBUG - send - 86 - Arduino respone: (Command: open Relay00)
+2024-09-14 14:01:37,875 - DEBUG - send - 87 - Key Watchdog_On sent successfully
+2024-09-14 14:01:37,877 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 14:01:37] "POST /send HTTP/1.1" 200 -
+2024-09-14 14:01:58,875 - INFO - _log - 97 -  * Detected change in '/home/youssef/flask/views.py', reloading
+2024-09-14 14:01:59,154 - INFO - _log - 97 -  * Restarting with stat
+2024-09-14 14:02:00,294 - INFO - <module> - 21 - ===============Starting Arduino Control VM v1.0.0===================
+2024-09-14 14:02:00,295 - DEBUG - <module> - 22 - listening on ip address : 10.1.1.188 and port 8000
+2024-09-14 14:02:00,348 - WARNING - _log - 97 -  * Debugger is active!
+2024-09-14 14:02:00,350 - INFO - _log - 97 -  * Debugger PIN: 959-091-865
+2024-09-14 14:02:03,555 - INFO - get_port - 49 - Port /dev/ttyACM1 found
+2024-09-14 14:02:03,558 - INFO - connectToPort - 64 - Connected Successfully to /dev/ttyACM1
+2024-09-14 14:02:04,593 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 14:02:04] "GET / HTTP/1.1" 200 -
+2024-09-14 14:02:04,669 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 14:02:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-09-14 14:02:06,765 - DEBUG - send - 86 - Arduino respone: (Command: close Relay00)
+2024-09-14 14:02:07,805 - DEBUG - send - 86 - Arduino respone: (Command: open Relay00)
+2024-09-14 14:02:08,849 - DEBUG - send - 86 - Arduino respone: (Command: close Relay00)
+2024-09-14 14:02:09,890 - DEBUG - send - 86 - Arduino respone: (Command: open Relay00)
+2024-09-14 14:02:09,891 - DEBUG - send - 87 - Key Watchdog_On sent successfully
+2024-09-14 14:02:09,893 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 14:02:09] "POST /send HTTP/1.1" 200 -
+2024-09-14 14:02:11,706 - INFO - get_port - 49 - Port /dev/ttyACM1 found
+2024-09-14 14:02:11,709 - INFO - connectToPort - 64 - Connected Successfully to /dev/ttyACM1
+2024-09-14 14:02:12,714 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 14:02:12] "GET / HTTP/1.1" 200 -
+2024-09-14 14:02:12,748 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 14:02:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-09-14 14:02:14,621 - DEBUG - send - 86 - Arduino respone: (Command: close Relay00)
+2024-09-14 14:02:15,661 - DEBUG - send - 86 - Arduino respone: (Command: open Relay00)
+2024-09-14 14:02:16,706 - DEBUG - send - 86 - Arduino respone: (Command: close Relay00)
+2024-09-14 14:02:17,750 - DEBUG - send - 86 - Arduino respone: (Command: open Relay00)
+2024-09-14 14:02:17,751 - DEBUG - send - 87 - Key Watchdog_On sent successfully
+2024-09-14 14:02:17,753 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 14:02:17] "POST /send HTTP/1.1" 200 -
+2024-09-14 14:02:19,141 - INFO - get_port - 49 - Port /dev/ttyACM1 found
+2024-09-14 14:02:19,144 - INFO - connectToPort - 64 - Connected Successfully to /dev/ttyACM1
+2024-09-14 14:02:19,929 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 14:02:19] "[31m[1mPOST /send HTTP/1.1[0m" 401 -
+2024-09-14 14:02:20,149 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 14:02:20] "GET / HTTP/1.1" 200 -
+2024-09-14 14:02:20,200 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 14:02:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-09-14 14:02:23,987 - DEBUG - send - 86 - Arduino respone: (Command: close Relay00)
+2024-09-14 14:02:25,028 - DEBUG - send - 86 - Arduino respone: (Command: open Relay00)
+2024-09-14 14:02:26,072 - DEBUG - send - 86 - Arduino respone: (Command: close Relay00)
+2024-09-14 14:02:27,113 - DEBUG - send - 86 - Arduino respone: (Command: open Relay00)
+2024-09-14 14:02:27,113 - DEBUG - send - 87 - Key Watchdog_On sent successfully
+2024-09-14 14:02:27,115 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 14:02:27] "POST /send HTTP/1.1" 200 -
+2024-09-14 14:02:37,352 - DEBUG - send - 86 - Arduino respone: (Command: close Relay00)
+2024-09-14 14:02:38,393 - DEBUG - send - 86 - Arduino respone: (Command: open Relay00)
+2024-09-14 14:02:39,436 - DEBUG - send - 86 - Arduino respone: (Command: close Relay00)
+2024-09-14 14:02:40,477 - DEBUG - send - 86 - Arduino respone: (Command: open Relay00)
+2024-09-14 14:02:40,477 - DEBUG - send - 87 - Key Watchdog_Off sent successfully
+2024-09-14 14:02:40,479 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 14:02:40] "POST /send HTTP/1.1" 200 -
+2024-09-14 14:02:43,832 - DEBUG - send - 86 - Arduino respone: (Command: close Relay00)
+2024-09-14 14:02:44,875 - DEBUG - send - 86 - Arduino respone: (Command: open Relay00)
+2024-09-14 14:02:45,920 - DEBUG - send - 86 - Arduino respone: (Command: close Relay00)
+2024-09-14 14:02:46,961 - DEBUG - send - 86 - Arduino respone: (Command: open Relay00)
+2024-09-14 14:02:46,961 - DEBUG - send - 87 - Key Can_Swap sent successfully
+2024-09-14 14:02:46,964 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 14:02:46] "POST /send HTTP/1.1" 200 -
+2024-09-14 14:02:48,471 - DEBUG - send - 86 - Arduino respone: (Command: close Relay00)
+2024-09-14 14:02:49,512 - DEBUG - send - 86 - Arduino respone: (Command: open Relay00)
+2024-09-14 14:02:50,557 - DEBUG - send - 86 - Arduino respone: (Command: close Relay00)
+2024-09-14 14:02:51,597 - DEBUG - send - 86 - Arduino respone: (Command: open Relay00)
+2024-09-14 14:02:51,597 - DEBUG - send - 87 - Key Can_Swap sent successfully
+2024-09-14 14:02:51,600 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 14:02:51] "POST /send HTTP/1.1" 200 -
+2024-09-14 14:02:53,005 - DEBUG - send - 86 - Arduino respone: (Command: close Relay00)
+2024-09-14 14:02:54,046 - DEBUG - send - 86 - Arduino respone: (Command: open Relay00)
+2024-09-14 14:02:55,090 - DEBUG - send - 86 - Arduino respone: (Command: close Relay00)
+2024-09-14 14:02:56,130 - DEBUG - send - 86 - Arduino respone: (Command: open Relay00)
+2024-09-14 14:02:56,131 - DEBUG - send - 87 - Key Watchdog_On sent successfully
+2024-09-14 14:02:56,133 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 14:02:56] "POST /send HTTP/1.1" 200 -
+2024-09-14 14:02:57,328 - INFO - get_port - 49 - Port /dev/ttyACM1 found
+2024-09-14 14:02:57,330 - INFO - connectToPort - 64 - Connected Successfully to /dev/ttyACM1
+2024-09-14 14:02:58,336 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 14:02:58] "GET / HTTP/1.1" 200 -
+2024-09-14 14:02:58,378 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 14:02:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-09-14 14:03:02,007 - DEBUG - send - 86 - Arduino respone: (Command: close Relay00)
+2024-09-14 14:03:03,049 - DEBUG - send - 86 - Arduino respone: (Command: open Relay00)
+2024-09-14 14:03:04,093 - DEBUG - send - 86 - Arduino respone: (Command: close Relay00)
+2024-09-14 14:03:05,133 - DEBUG - send - 86 - Arduino respone: (Command: open Relay00)
+2024-09-14 14:03:05,134 - DEBUG - send - 87 - Key Watchdog_Off sent successfully
+2024-09-14 14:03:05,136 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 14:03:05] "POST /send HTTP/1.1" 200 -
+2024-09-14 14:03:19,367 - INFO - get_port - 43 - No Serial ports found
+2024-09-14 14:03:19,368 - INFO - home - 36 - No Valid Ports
+2024-09-14 14:03:19,370 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 14:03:19] "GET / HTTP/1.1" 200 -
+2024-09-14 14:03:19,402 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 14:03:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-09-14 14:03:41,317 - INFO - get_port - 49 - Port /dev/ttyACM0 found
+2024-09-14 14:03:41,319 - INFO - connectToPort - 64 - Connected Successfully to /dev/ttyACM0
+2024-09-14 14:03:42,325 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 14:03:42] "GET / HTTP/1.1" 200 -
+2024-09-14 14:03:42,368 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 14:03:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-09-14 14:03:45,232 - DEBUG - send - 86 - Arduino respone: (Command: close Relay00)
+2024-09-14 14:03:46,272 - DEBUG - send - 86 - Arduino respone: (Command: open Relay00)
+2024-09-14 14:03:47,316 - DEBUG - send - 86 - Arduino respone: (Command: close Relay00)
+2024-09-14 14:03:48,357 - DEBUG - send - 86 - Arduino respone: (Command: open Relay00)
+2024-09-14 14:03:48,358 - DEBUG - send - 87 - Key Watchdog_On sent successfully
+2024-09-14 14:03:48,360 - INFO - _log - 97 - 10.1.1.189 - - [14/Sep/2024 14:03:48] "POST /send HTTP/1.1" 200 -
