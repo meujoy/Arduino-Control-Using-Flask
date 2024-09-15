@@ -1,6 +1,7 @@
 from flask import Flask
 from views import views,logging # importing the views variable of the views file to register the blueprint 
-#import socket
+import sys
+import os
 import configparser
 
 app = Flask(__name__) # Creating Flask app
@@ -21,7 +22,13 @@ if __name__ == "__main__":
         logging.info("===============Starting Arduino Control VM v1.0.0===================")
         logging.debug("listening on ip address : %s and port %d" % (ip_address,port))
 
-        app.run(debug=True,host = ip_address,port=port) #running the app
+        if getattr(sys,'frozen',False):
+            # If frozen, update the template and static folder paths of the existing app instance
+            app.template_folder = os.path.join(sys._MEIPASS, 'templates')
+            app.static_folder = os.path.join(sys._MEIPASS, 'static')
+
+        # Run the app
+        app.run(host=ip_address, port=port, debug=not getattr(sys, 'frozen', False))
     except OSError as e:
         logging.error("OS error occurred while starting Flask: %s", e)
     except Exception as e:
