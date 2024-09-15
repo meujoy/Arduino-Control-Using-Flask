@@ -1,3 +1,4 @@
+from waitress import serve
 from flask import Flask
 from views import views,logging # importing the views variable of the views file to register the blueprint 
 import sys
@@ -24,11 +25,14 @@ if __name__ == "__main__":
 
         if getattr(sys,'frozen',False):
             # If frozen, update the template and static folder paths of the existing app instance
+            os.environ['FLASK_ENV'] = 'production'
             app.template_folder = os.path.join(sys._MEIPASS, 'templates')
             app.static_folder = os.path.join(sys._MEIPASS, 'static')
+            serve(app, host=ip_address, port=port)
+        else:
+            os.environ['FLASK_ENV'] = 'development'
+            app.run(host=ip_address, port=port, debug=True)
 
-        # Run the app
-        app.run(host=ip_address, port=port, debug=not getattr(sys, 'frozen', False))
     except OSError as e:
         logging.error("OS error occurred while starting Flask: %s", e)
     except Exception as e:
