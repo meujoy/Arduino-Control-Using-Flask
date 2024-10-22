@@ -1,0 +1,160 @@
+h1{
+    display: flex;
+    flex-direction: row;
+    color: green;
+    justify-content: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif; /* Font family */
+    font-size: 20px; /* Font size */
+    color: #333; /* Dark gray color for better readability */
+    display: block; /* Makes label occupy the full width */
+    margin-bottom: 8px; /* Space below the label */
+    font-weight: bold; /* Makes the text bold */
+    text-align: left; /* Aligns the text to the left */
+    letter-spacing: 0.5px; /* Adds slight spacing between letters */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+button{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px 15px;
+    font-size: 20px;
+    transition: all 0.3s ease;
+}
+button:hover{
+    background-color: #45a049; /* Darker shade on hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Adds depth with shadow */
+    transform: translateY(-2px); /* Slight upward movement */
+}
+
+.buttons{
+    display: flex;
+    margin-bottom: 10px;
+    gap: 15px;
+}
+
+.button-div,.done-reset-button{
+    display: flex;
+    flex: 1;
+    gap: 15px;
+}
+
+textarea {
+    width: 100%;           
+    height: 150px;        
+    resize: none;         
+    padding: 10px;        
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+.command-gui-textbox {
+    display: flex;
+    flex-direction: column;          
+    justify-content: center;  
+    align-items: center;    
+    height: 100px;          
+}
+
+input.command-textbox{
+    width: 40%;                    
+    height: 40px;
+    font-size: 15px;                   
+    padding: 10px;                  
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.command-container {
+    display: flex;               
+    align-items: center;         
+}
+
+.command-container-label {
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Set a default font */
+    background-color: #f9f9f9; /* Light background for contrast */
+    color: #333; /* Dark text for readability */
+    margin: 20px; /* Space around the body */
+}
+
+.choose-command-text {
+    margin-bottom: 15px; /* Space below the title */
+}
+
+.choose-command-text p {
+    font-size: 20px; /* Larger font for the title */
+    font-weight: bold; /* Bold text for emphasis */
+    color: #4CAF50; /* Green color for the title */
+}
+
+.command-container {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+    margin-bottom: 20px; /* Space below the command container */
+    background-color: #fff; /* White background for the container */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 10px; /* Padding for inner space */
+}
+
+.command-label p {
+    margin-right: 10px; /* Space between label and dropdown */
+    font-weight: bold; /* Bold label for emphasis */
+}
+
+.dropdown-menu {
+    width: 200px; 
+    padding: 8px; 
+    border-radius: 8px; /* Rounded corners */
+    border: 1px solid #ccc; /* Light border */
+    background-color: #f1f1f1; /* Light background */
+    font-size: 16px; /* Font size for readability */
+    transition: border-color 0.3s; /* Smooth transition on focus */
+}
+
+.dropdown-menu:focus {
+    border-color: #4CAF50; /* Change border color on focus */
+    outline: none; /* Remove outline */
+}
+
+.console-text {
+    margin-top: 20px; /* Space above the console text */
+}
+
+.console-text p {
+    font-weight: bold; /* Bold text for emphasis */
+    color: #4CAF50; /* Green color for the console text */
+}
+.console-commands{
+    display: flex;
+    flex: 1;
+    gap: 20px;
+}
+
+#error-message{
+    color: red; 
+    display: none;
+}
+
+#deleteCommandBtn{
+    background-color: rgb(192, 39, 39); 
+    color: white;
+}
+
+#resetbtn{
+    background-color: rgb(192, 39, 39); 
+    color: white;
+}
+

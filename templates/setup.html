@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arduino Setup</title>
+    <link rel="stylesheet" href="../static/css/setup.css">
+</head>
+<body>
+    <div class="main-div">
+        <h1>Setup Your Commands</h1>
+      
+      <div class="command-gui-textbox">
+        <label>Enter Key:</label>
+        <input type="text" placeholder="Enter the name of the command you wish to see on the GUI" class="command-textbox js-command-gui">
+        <p id="error-message"></p>
+      </div>
+      
+      <div class="choose-command-text">
+        <label> Chose your Command </label>
+      </div>
+
+      <div class="command-container">
+        <div class="command-container-label">
+            <label>Command:</label>
+        </div>  
+        <select name="commands" id="commands" class="dropdown-menu js-dropdown-menu"></select>
+      </div>
+
+      <div>
+        <label> Console </label>
+      </div>
+
+      <div class="console-commands">
+        <textarea disabled name="console" id="consoleSubCommands" placeholder="Command Blocks will displayed here"></textarea>
+        <textarea disabled name="console" id="consoleJSON" placeholder="JSON displayed here"></textarea>
+      </div>
+
+      <div class="buttons">
+        <div class= "button-div">
+          <button id="deleteCommandBtn" onclick = "deleteCommand()">Delete Command</button>
+        </div>
+
+        <div class= "button-div">
+          <button id= "addCommnadBtn" onclick="addCommand()">Add Command</button>
+        </div>
+
+        <div class= "button-div">
+          <button onclick="nextBlock()" id="nextBlockBtn">Next Block</button>
+        </div>
+
+      </div>
+      
+      <div class="done-reset-button">
+        <button id="resetBtn">Reset</button>
+        <button id="doneBtn">Done</button>
+      </div>
+    </div>
+    <script src="../scripts/setup.js"></script>
+</body>
+</html>
