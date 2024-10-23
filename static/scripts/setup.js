@@ -144,5 +144,26 @@ function hasSpacesInMiddle(value) {
     return value.trim().length > 0 && /\s/.test(value.trim());
 }
 
+function submitJson() {
+    fetch('/submit',
+        {
+            method: 'POST',
+            headers:{
+                'Content-Type': 'application/json'
+            },
+            body:JSON.stringify(commandsObject),
+        })
+        .then(response => response.json())
+        .then(data =>{
+            console.log('Success',data);
+            if (data.redirect_url) {
+                window.location.href = data.redirect_url; // Redirect to the new page
+            }
+        })
+        .catch((error) =>{
+            console.error('Error',error);
+        });
+}
+
 
 

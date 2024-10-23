@@ -1,7 +1,7 @@
 '''
 We do this in order to sperate the routes from the starting file of the app
 '''
-from flask import Blueprint, render_template, request, jsonify
+from flask import Blueprint, render_template, request, jsonify, redirect,url_for
 import serial
 import glob
 import pyudev
@@ -35,6 +35,25 @@ def home():
          else:
               logging.info("No Valid Ports")
               return render_template("index.html",message= "No Valid ports")
+
+@views.route('/submit', methods=['POST'])
+def fetch_data():
+    data = request.get_json()
+    if data:
+        print(f"Received data:{data}")
+        print(type(data))
+        json_object = json.dumps(data,indent=4)
+        with open('commands.json','w') as file:
+            file.write(json_object)
+            
+        return jsonify({
+            'message': 'Data received successfully',
+            'redirect_url': url_for('views.home')
+        }), 200
+    
+@views.route('/setup')
+def setup():
+    return render_template("setup.html")
 
 def get_port():
 
