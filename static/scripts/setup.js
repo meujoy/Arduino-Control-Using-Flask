@@ -154,7 +154,7 @@ function keyExists(value) {
 }
 
 function hasSpacesInMiddle(value) {
-    return value.length > 0 && /\s/.test(value.trim());
+    return value.length > 0 && /\s/.test(value);
 }
 
 function submitJson() {
