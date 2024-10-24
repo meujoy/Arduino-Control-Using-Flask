@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arduino Control</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}"> <!-- {{ url_for('static', filename='css/home.css') }} -->
+    <h1>Arduino Control</h1>
+    <script src="{{ url_for('static', filename='scripts/home.js') }}"> 
+    </script>
+</head>
+<body>
+    <div class="commands dropdown">
+        <label for="Commands">Choose your command:</label>
+        <form onsubmit="sendCommand(event)">
+            <select name="command" id="Commands">
+                {% for command in commands %}
+                    <option value="{{ command }}">{{ command }}</option>
+                {% endfor %}
+            </select>
+            <button type="submit">Send Command</button>
+        </form>
+    </div>
+
+    <div class="Console">
+        <label for="Console">Console</label>
+        <textarea readonly name="Console" id="Console" rows="20" cols="35">{{ message }}</textarea>
+    </div>
+
+    <div>
+        <button id="resetBtnHome" onclick="resetCommands()" >Reset Commands</button>
+    </div>
+</body>
+</html>
+

@@ -8,6 +8,7 @@ import pyudev
 import time
 import json
 import logging
+import os
 
 logging.basicConfig(level=logging.DEBUG,
     filename= "logs.log",
@@ -24,17 +25,20 @@ commands_dict = {}
 
 @views.route("/")
 def home():
-    global serial_connection
-    get_commands()
-    serial_connection = None
-    if serial_connection is None or not serial_connection.is_open:
-         port = get_port()
-         if port:
-              serial_connection = connectToPort(port)
-              return render_template("index.html",message= "Connected successfully",commands = commands_dict)
-         else:
-              logging.info("No Valid Ports")
-              return render_template("index.html",message= "No Valid ports")
+    if (command_file_exist()):
+        global serial_connection
+        get_commands()
+        serial_connection = None
+        if serial_connection is None or not serial_connection.is_open:
+            port = get_port()
+            if port:
+                serial_connection = connectToPort(port)
+                return render_template("home.html",message= "Connected successfully",commands = commands_dict)
+            else:
+                logging.info("No Valid Ports")
+                return render_template("home.html",message= "No Valid ports")
+    else:
+        return redirect(url_for('views.setup'))
 
 @views.route('/submit', methods=['POST'])
 def fetch_data():
@@ -50,11 +54,19 @@ def fetch_data():
             'message': 'Data received successfully',
             'redirect_url': url_for('views.home')
         }), 200
+    else:
+        return jsonify({
+            'message': 'Failed to receive data',
+            'error': True
+        }), 400
+
     
 @views.route('/setup')
 def setup():
-    return render_template("setup.html")
-
+    if (command_file_exist() == False):
+        return render_template("setup.html")
+    else:
+        return redirect(url_for('views.home'))
 def get_port():
 
     ports = glob.glob('/dev/ttyAC[A-Za-z]*')
@@ -74,15 +86,15 @@ def get_port():
 get_port() return the arduino serial port name /dev/ttyACM0
 '''
 def connectToPort(port):
-    ser = None
+    serial_init = None
     timer = 10
     counter = 0
     while(True):
         try:
-            ser = serial.Serial(port,9600,timeout=5)
-            logging.info("Connected Successfully to %s" %ser.port)
+            serial_init = serial.Serial(port,9600,timeout=5)
+            logging.info("Connected Successfully to %s" %serial_init.port)
             time.sleep(1)
-            return ser
+            return serial_init
         except Exception as e:
             if counter < 10:
                 logging.error("Connection to port (%s) failed with exception: %s Retrying in %d seconds" %(port,e,timer))
@@ -121,3 +133,28 @@ def get_commands():
     if not commands_dict:
         with open("commands.json","r") as f:
             commands_dict = json.load(f)
+
+def command_file_exist():
+    file_path = 'commands.json'
+    if os.path.exists(file_path):
+        return True
+    else:
+        return False
+    
+@views.route('/reset-commands',methods = ['DELETE'])  
+def delete_command_file():
+    global commands_dict
+    file_path = 'commands.json'  # Change this to your file path
+
+    try:
+        if os.path.exists(file_path):
+            os.remove(file_path)  # Delete the file
+            commands_dict = {}
+            return jsonify({
+            'message': 'File deleted successfully.',
+            'redirect_url': url_for('views.setup')
+            }), 200
+        else:
+            return jsonify({'message': 'File not found.', 'status': 'error'}), 404
+    except Exception as e:
+        return jsonify({'message': f'Error deleting file: {str(e)}', 'status': 'error'}), 500

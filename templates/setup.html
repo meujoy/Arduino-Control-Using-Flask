@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arduino Setup</title>
-    <link rel="stylesheet" href="../static/css/setup.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/setup.css') }}">
 </head>
 <body>
     <div class="main-div">
@@ -45,16 +45,16 @@
         </div>
 
         <div class= "button-div">
-          <button onclick="nextBlock()" id="nextBlockBtn">Next Block</button>
+          <button onclick="nextBlock()" id="nextBlockBtn">Add to JSON</button>
         </div>
 
       </div>
       
       <div class="done-reset-button">
-        <button id="resetBtn">Reset</button>
+        <button id="resetBtn" onclick="resetPagebtn()">Reset</button>
         <button id="doneBtn" onclick="submitJson()">Done</button>
       </div>
     </div>
-    <script src="../static/scripts/setup.js"></script>
+    <script src="{{ url_for('static', filename='scripts/setup.js') }}"></script>
 </body>
 </html>

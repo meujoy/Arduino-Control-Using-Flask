@@ -36,4 +36,4 @@ if __name__ == "__main__":
     except OSError as e:
         logging.error("OS error occurred while starting Flask: %s", e)
     except Exception as e:
-       logging.error("Error occured (%s)" %e)
+        logging.error("Error occured (%s)" %e)

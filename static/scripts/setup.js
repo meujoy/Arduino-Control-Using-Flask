@@ -1,4 +1,17 @@
-let commands = ["close relay00","open relay00","close relay01","open relay01"]
+let commands = [
+    "close relay00", "open relay00",
+    "close relay01", "open relay01",
+    "close relay02", "open relay02",
+    "close relay03", "open relay03",
+    "close relay04", "open relay04",
+    "close relay05", "open relay05",
+    "close relay06", "open relay06",
+    "close relay07", "open relay07",
+    "close relay08", "open relay08",
+    "close relay09", "open relay09",
+    "close relay10", "open relay10"
+];
+
 let commandsObject = {};
 let subCommands = {};
 let commandCounter = 1;
@@ -127,10 +140,10 @@ function validateInput() {
 function blockUnblockBtns(isValid) {
     const doneBtnElement = document.querySelector('#doneBtn');
     const nextBlockBtnElement = document.querySelector('#nextBlockBtn');
-    const resetBtnElement = document.querySelector('#resetBtn');
+    // const resetBtnElement = document.querySelector('#resetBtn');
     doneBtnElement.disabled = !isValid;
     nextBlockBtnElement.disabled = !isValid;
-    resetBtnElement.disabled = !isValid;
+    // resetBtnElement.disabled = !isValid;
 }
 
 function keyExists(value) {
@@ -155,9 +168,12 @@ function submitJson() {
         })
         .then(response => response.json())
         .then(data =>{
-            console.log('Success',data);
-            if (data.redirect_url) {
-                window.location.href = data.redirect_url; // Redirect to the new page
+            if (data.error){
+                alert('Failed to recieve data, please try again')
+            }
+            else{
+                console.log('Success', data);
+                window.location.href = data.redirect_url;
             }
         })
         .catch((error) =>{
@@ -165,5 +181,10 @@ function submitJson() {
         });
 }
 
+function resetPagebtn() {
+    console.log('reset button pressed');
+    location.reload();
+    console.log('Done');
+}
 
 
