@@ -178,6 +178,18 @@ def get_commands():
             return jsonify({'message': 'Data can not be retrieved.','status': 'failure', 'Error message': f'{e}'}), 500
     return jsonify({'message': 'File not Found.', 'status': 'failure'}), 404
 
+@views.route('/close-serial', methods=['POST'])
+def close_connection():
+    global serial_connection
+    try:
+        if serial_connection and serial_connection.is_open:  # Check if connection exists and is open
+            serial_connection.close()  # Close the connection
+            return jsonify({"message": "Serial connection closed successfully",'status': 'success'}), 200
+        else:
+            return jsonify({"message": "No open serial connection found",'status': 'failure'}), 400
+    except Exception as e:
+        return jsonify({"message": "Failed to close serial connection", "Error message": str(e),'status': 'failure'}), 500
+
 def get_port()-> str:
     '''
     get_port() return the arduino serial port name /dev/ttyACM0

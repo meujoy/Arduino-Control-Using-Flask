@@ -35,18 +35,26 @@ def get_commands():
     response = requests.get(url=url+'get-commands')
     print(response.status_code, response.json())
 
+def close_serial():
+  response = requests.post(url=url+'close-serial')
+  print(response.status_code, response.json())
+
+
 print("resetting Commands")
 reset_commands()
 print("Creating Commands")
 create_commands()
+print("Getting Commands")
+get_commands()
 print("Connecting")
 connect()
 print("Sending Commands")
 execute('WDGoff')
-time.sleep(2) # Important
+time.sleep(1) # Important
 execute('WDGon')
-print("Getting Commands")
-get_commands()
+print("Closing serial port")
+close_serial()
+
 
 
     
